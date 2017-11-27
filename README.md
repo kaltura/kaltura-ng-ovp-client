@@ -1,6 +1,6 @@
 # Kaltura Typescript Client
 
-[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![Gitter chat](https://badges.gitter.im/kaltura-ng/kaltura-ng.png)](https://gitter.im/kaltura-ng/kaltura-ng) [![npm version](https://badge.fury.io/js/kaltura-typescript-client.svg)](https://badge.fury.io/js/kaltura-typescript-client)
+[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org) [![Gitter chat](https://badges.gitter.im/kaltura-ng/kaltura-ng.png)](https://gitter.im/kaltura-ng/kaltura-ng)
 
 > An easy-to-use facade to Kaltura server with typescript support for action requests, classes and enums.
 
@@ -14,7 +14,7 @@ This library have **_zero dependencies_** at runtime and it can be used in any J
 
 use 'npm' to get the library
 ```bash
-$ npm install kaltura-typescript-client
+$ npm install @kaltura-ng/kaltura-client
 ```
 
 ## Instructions
