@@ -38,6 +38,7 @@ function compileAppScripts() {
     tsProject: tsProject,
     inPath: ["src/**/*.ts",
       "!src/tests/**/*.ts",
+      "!src/api/tests/**/*.ts",
       "!**/*.spec.ts",
       "!dist/**",
       "!.tmp/**",
