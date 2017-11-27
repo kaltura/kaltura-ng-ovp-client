@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="7.0.0"></a>
+# 7.0.0 (2017-11-27)
+
+
+### Features
+
+* embed generated api into kaltura-client ([0446c00](https://github.com/kaltura/KalturaGeneratedAPIClientsTypescript/commit/0446c00))
+
+
+### BREAKING CHANGES
+
+* * you need to uninstall kaltura-typescript-client (npm uninstall kalutra-typescript-client).
+
+* rename all imports to use the embedded api
+before:
+```
+import { ... } from 'kaltura-typescript-client'
+import { ... } from 'kaltura-typescript-client/types'
+```
+
+after:
+```
+import { ... } from '@kaltura-ng/kaltura-client'
+import { ... } from '@kaltura-ng/kaltura-client/api/types'
+```
+
+
+
 <a name="6.0.0"></a>
 # [6.0.0](https://github.com/kaltura/KalturaGeneratedAPIClientsTypescript/compare/v5.1.2...v6.0.0) (2017-11-26)
 
