@@ -23,7 +23,8 @@
     "build:prod": "gulp build --production",
     "lint": "tslint src/**/*.ts",
     "watch": "gulp watch",
-    "release": "standard-version",
+    "release:prepare": "npm run build && standard-version",
+    "release:publish": "npm run build && git push --follow-tags && cd dist && npm publish",
     "test": "jest"
   },
   "repository": {
