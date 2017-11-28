@@ -14,6 +14,7 @@ export interface KalturaPushToNewsDistributionProfileArgs  extends KalturaConfig
 	password? : string;
 	certificateKey? : string;
 	bodyXslt? : string;
+	recentNewsTimeInterval? : number;
 }
 
 
@@ -28,6 +29,7 @@ export class KalturaPushToNewsDistributionProfile extends KalturaConfigurableDis
 	password : string;
 	certificateKey : string;
 	bodyXslt : string;
+	recentNewsTimeInterval : number;
 
     constructor(data? : KalturaPushToNewsDistributionProfileArgs)
     {
@@ -49,7 +51,8 @@ export class KalturaPushToNewsDistributionProfile extends KalturaConfigurableDis
 				username : { type : 's' },
 				password : { type : 's' },
 				certificateKey : { type : 's' },
-				bodyXslt : { type : 's' }
+				bodyXslt : { type : 's' },
+				recentNewsTimeInterval : { type : 'n' }
             }
         );
         return result;
