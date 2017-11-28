@@ -27,6 +27,9 @@
     "release:publish": "npm run build && git push --follow-tags && cd dist && npm publish",
     "test": "jest"
   },
+  "config": {
+    "publishDirectory": "dist"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/kaltura/KalturaGeneratedAPIClientsTypescript.git"
