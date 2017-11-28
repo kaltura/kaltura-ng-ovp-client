@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="7.0.1"></a>
+## [7.0.1](https://github.com/kaltura/KalturaGeneratedAPIClientsTypescript/compare/v7.0.0...v7.0.1) (2017-11-28)
+
+
+### Bug Fixes
+
+* use ngc during tranpiling to support angular-cli based applications ([8076c96](https://github.com/kaltura/KalturaGeneratedAPIClientsTypescript/commit/8076c96))
+
+
+
 <a name="7.0.0"></a>
 # 7.0.0 (2017-11-27)
 
