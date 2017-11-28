@@ -1,22 +1,36 @@
 {
 	"compilerOptions": {
-		"baseUrl": ".",
+		"baseUrl": "src",
+		"outDir": "./.tmp",
 		"declaration": true,
-		"emitDecoratorMetadata": true,
+		"stripInternal": true,
 		"experimentalDecorators": true,
-		"importHelpers": true,
-		"lib": [
-			"es2015",
-			"dom"
-		],
-		"module": "commonjs",
-		"noEmitHelpers": true,
+		"strictNullChecks": false,
 		"noImplicitAny": false,
-		"skipLibCheck": true,
+		"noEmitHelpers": false,
+		"module": "es2015",
+		"importHelpers": false,
+		"moduleResolution": "node",
 		"sourceMap": true,
+		"inlineSources": true,
 		"target": "es5",
+		"skipLibCheck": true,
 		"typeRoots": [
 			"node_modules/@types"
+		],
+		"lib": [
+			"es2015",
+			"ES2017",
+			"dom"
 		]
+	},
+	"include": [
+		"src/**/*"
+	],
+	"exclude": [
+		"src/api/tests/**/*"
+	],
+	"angularCompilerOptions": {
+		"skipTemplateCodegen": true
 	}
 }
