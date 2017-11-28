@@ -5,6 +5,9 @@ All notable changes to this project will be documented in this file. See [standa
 <a name="7.0.2"></a>
 ## [7.0.2](https://github.com/kaltura/KalturaGeneratedAPIClientsTypescript/compare/v7.0.1...v7.0.2) (2017-11-28)
 
+### Features
+
+* update api using schema from 26/11/17 01:43:07
 
 
 <a name="7.0.1"></a>
